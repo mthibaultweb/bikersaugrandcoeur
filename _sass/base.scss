@@ -1,18 +1,50 @@
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  scroll-padding-top: 120px;
 
   .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    scroll-padding-top: 90px;
   }
+
+  @media (min-width: 992px) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    scroll-padding-top: 180px;
+
+    .section {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      scroll-padding-top: 120px;
+    }
+  }
+
   &:not([class*="bg-"]) + .section:not([class*="bg-"]),
   &.bg-light + .section.bg-light,
-  &:not([class*="bg-"]) .section:not([class*="bg-"]):first-child {
+  .section:not([class*="bg-"]):first-child {
     padding-top: 0;
   }
 
-  &:not([class*="bg-"]) .section:not([class*="bg-"]):last-child {
+  .section:not([class*="bg-"]):last-child {
     padding-bottom: 0;
+  }
+
+}
+
+.subtitle {
+  display: block;
+  font-size: 1rem;
+  line-height: 135%;
+  font-weight: 400;
+}
+
+
+@media (min-width: 992px) {
+  
+  .contact-list-number {
+    column-count: 2;
+    -webkit-column-count: 2;
   }
 }

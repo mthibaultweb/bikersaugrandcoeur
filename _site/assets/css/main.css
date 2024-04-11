@@ -10720,18 +10720,47 @@ textarea.form-control-lg {
   }
 }
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.section .section {
   padding-top: 60px;
   padding-bottom: 60px;
+  scroll-padding-top: 120px;
 }
-.section:not([class*=bg-]) + .section:not([class*=bg-]), .section.bg-light + .section.bg-light, .section:not([class*=bg-]) .section:not([class*=bg-]):first-child {
+.section .section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  scroll-padding-top: 90px;
+}
+@media (min-width: 992px) {
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    scroll-padding-top: 180px;
+  }
+  .section .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    scroll-padding-top: 120px;
+  }
+}
+.section:not([class*=bg-]) + .section:not([class*=bg-]), .section.bg-light + .section.bg-light,
+.section .section:not([class*=bg-]):first-child {
   padding-top: 0;
 }
-.section:not([class*=bg-]) .section:not([class*=bg-]):last-child {
+.section .section:not([class*=bg-]):last-child {
   padding-bottom: 0;
+}
+
+.subtitle {
+  display: block;
+  font-size: 1rem;
+  line-height: 135%;
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  .contact-list-number {
+    column-count: 2;
+    -webkit-column-count: 2;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
