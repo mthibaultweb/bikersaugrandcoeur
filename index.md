@@ -97,7 +97,7 @@ title: "Bikers au grand cœur"
             <li>Et la partie est gagnée, quand tous les bikers arrivent à la ligne d'arrivée avec leur pièces de motos récupérées. Ça, c'est la vraie victoire, les gars&nbsp;!<br/>
             Si plus aucun biker ne peux avancer ou débloquer les copains, vous avez perdu.</li>
           </ol>
-          <a class="btn btn-primary" href="/assets/game/BCH_le_jeu_-_version_1.pdf" target="_blank">Télécharger le jeu en couleurs (PDF - 35 Mo)</a>
+          <a class="btn btn-primary" href="/assets/game/bikers-au-grand-coeur-le-jeu-v1" target="_blank">Télécharger le jeu en couleurs (PDF - 35 Mo)</a>
           <!-- <a class="btn btn-secondary" href="#">Télécharger le jeu en noir et blanc (PDF - 35 Mo)</a> -->
         </div>
         <div class="col-lg-6">
