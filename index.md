@@ -8,12 +8,12 @@ title: "Bikers au grand cœur"
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6 mb-4 mb-lg-0 order-lg-2">
-        <img class="d-block w-100 p-5 bg-light" src="#" alt="image header"/>
+        <img class="w-100" src="/assets/img/bikers_wip.png" alt="image header"/>
       </div>
       <div class="col-lg-6 order-lg-1">
       <div class="section-title">
-        <h1>{{ page.title }}
-          <span class="subtitle">Jeu de sensibilisation au harcèlement scolaire</span>
+        <h1>
+          {{ page.title }}
         </h1>
       </div>
         <p class="lead">Amorcer le dialogue parent-enfant<br/> sur le sujet du harcèlement</p>
@@ -33,7 +33,7 @@ title: "Bikers au grand cœur"
           <img class="d-block w-100 p-5 bg-light" src="#" alt="image zone desc"/>
         </div>
         <div class="col-lg-7">
-          <h2>À l'école, tous potentiels témoins, victimes, intimidateurs</h2>
+          <h2>A l'école, tous potentiels témoins, victimes, intimidateurs</h2>
           <p class="lead">Malgré les apparences, c’est à l’école primaire que le harcèlement est le plus présent.</p>
           <p>Le harcèlement c’est des <strong>violences répétées</strong> à l’égard d’une personne exercées <strong>par un ou plusieurs individus</strong> (psychologique, physique, verbale ou non verbale)</p>
           <p>{{ site.title }} vous apporte des <strong>ressources & conseils</strong> de spécialistes afin d’<strong>ouvrir la discussion avec vos enfants</strong> sur ce sujet souvent tabou et trop peu pris au sérieux.</p>
@@ -52,8 +52,9 @@ title: "Bikers au grand cœur"
       <div class="row">
         <div class="col-lg-6 mb-4 mb-lg-0">
           <div class="section-title mb-4">
-            <h2>Bikers au grand cœur&nbsp;: le jeu
+            <h2>
               <span class="subtitle">Jeu de plateau, coopératif et imprimable</span>
+              Bikers au grand cœur, le jeu
             </h2>
           </div>
           <div class="game-infos">
@@ -115,8 +116,9 @@ title: "Bikers au grand cœur"
 <section class="section">
   <div class="container">
     <div class="section-title mb-4">
-      <h2>Ils ont testé le jeu
-        <span class="subtitle">Les avis des joueurs</span>
+      <h2>
+        <span class="subtitle">Ils ont testé le jeu</span>
+        Les avis des joueurs
       </h2>
     </div>
     <div class="row">
@@ -151,14 +153,15 @@ title: "Bikers au grand cœur"
 <!-- End testimonials -->
 
 <!-- Begin bullying talk -->
-<section class="section bg-light" id="discussion-harcelement">
+<section class="section bg-aquamarine" id="discussion-harcelement">
   <div class="container">
     <div class="section">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-4 mb-lg-0">
           <div class="section-title mb-4">
-            <h2>Harcèlement scolaire&nbsp;: comment en parler&nbsp;?
-              <span class="subtitle">Discussion entre parents et enfants</span>
+            <h2>
+              <span class="subtitle">Discussion parents / enfants</span>
+              Harcèlement scolaire&nbsp;: comment en parler&nbsp;?
             </h2>
           </div>
           <p class="lead">Aborder des sujets sensibles comme le harcèlement peut être délicat pour les parents.</p>
@@ -192,7 +195,7 @@ title: "Bikers au grand cœur"
       </div>
     </div>
     <div class="section">
-      <h3>Quelques idées pour armorcer la discussion après le jeu&nbsp;?</h3>
+      <h3>Quelques idées pour armorcer la discussion après le jeu</h3>
       <ul>
         <li>Qu'as-tu pensé du jeu&nbsp;? As-tu remarqué que ce jeu parlait de harcèlement&nbsp;? Sais-tu ce qu’est le harcèlement&nbsp;?</li>
         <li>Y avait-il des parties du jeu compliquées ou que tu n’as pas comprises&nbsp;? Pourquoi&nbsp;?</li>
@@ -208,7 +211,7 @@ title: "Bikers au grand cœur"
 <!-- Begin contacts -->
 <section class="section">
   <div class="container">
-    <h2>Vers qui s'orienter</h2>
+    <h2>Vers qui s'orienter&nbsp;?</h2>
     <div class="row">
       <div class="col-lg-4">
         <h3>Associations et services :</h3>
@@ -258,7 +261,7 @@ title: "Bikers au grand cœur"
           <li class="me-3"><a class="link-dark" href="https://www.facebook.com/p/BCH-Biker-Contre-Harcelement-33-100070471032774/" target="_blank">Facebook</a></li>
           <li class="me-3"><a class="link-dark" href="https://www.instagram.com/b.c.h.33.france/" target="_blank">Instagram</a></li>
           <li class="me-3"><a class="link-dark" href="https://www.tiktok.com/@bikercontreharcelement33/" target="_blank">TikTok</a></li>
-          <li class="me-3"><a class="link-dark" href="mailto:bikercontreharcelement33@gmail.com">Mail</a></li>
+          <li class="me-3"><a class="link-dark" href="mailto:bikercontreharcelement33@gmail.com">e-Mail</a></li>
           <li class="me-3"><a class="link-dark" href="https://bikercontreharcelement.fr/" target="_blank">Site web</a></li>
         </ul>
       </div>
@@ -266,16 +269,3 @@ title: "Bikers au grand cœur"
   </div>
 </section>
 <!-- End partners -->
-
-<!-- Begin thanking -->
-<section class="section">
-  <div class="container">
-    <div class="section-title mb-4">
-      <h2>Remerciements
-        <span class="subtitle">Ils nous ont aidé</span>
-      </h2>
-    </div>
-    
-  </div>
-</section>
-<!-- End thanking -->

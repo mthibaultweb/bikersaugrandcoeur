@@ -10719,6 +10719,122 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: "Blank River";
+  src: url("/assets/fonts/blank_river.woff") format("woff"), url("/assets/fonts/blank_river.woff2") format("woff2"), url("/assets/fonts/blank_river.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/Inter-Regular.woff") format("woff"), url("/assets/fonts/Inter-Regular.woff2") format("woff2"), url("/assets/fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/Inter-Bold.woff") format("woff"), url("/assets/fonts/Inter-Bold.woff2") format("woff2"), url("/assets/fonts/Inter-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+/* Variables */
+:root {
+  --font-title: "Blank River", serif;
+  --bs-font-sans-serif: "Inter", sans-serif;
+  --color-grey: #4C4B4C;
+  --color-grey-rgb: 76, 75, 76;
+  --color-aquamarine: #8ccac5;
+  --color-aquamarine-rgb: rgb(140, 202, 197);
+  --color-sand: #F1AB5F;
+  --color-sand-rgb: 243, 188, 128;
+}
+
+body {
+  position: relative;
+}
+
+/* Fonts */
+h1,
+.h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: var(--font-title);
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 120%;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+}
+
+h2, .h2 {
+  font-size: 2rem;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1.125rem;
+}
+
+@media (min-width: 992px) {
+  h1, .h1 {
+    font-size: 3.5rem;
+  }
+  h2, .h2 {
+    font-size: 2.5rem;
+  }
+  h3, .h3 {
+    font-size: 2rem;
+  }
+  h4, .h4 {
+    font-size: 1.75rem;
+  }
+  h5, .h5 {
+    font-size: 1.5rem;
+  }
+  h6, .h6 {
+    font-size: 1.25rem;
+  }
+}
+/* Header */
+.header {
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(var(--color-grey-rgb), 0.25);
+  box-shadow: 0px 0px 4px 0px rgba(var(--color-grey-rgb), 0.25);
+}
+
+/* Utilities */
+.bg-aquamarine {
+  background-color: var(--color-aquamarine);
+}
+
+.btn-primary {
+  --bs-btn-color: var(--color-dark);
+  --bs-btn-bg: var(--color-sand);
+  --bs-btn-border-color: var(--color-sand);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0b5ed7;
+  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0a58ca;
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: var(--color-sand);
+  --bs-btn-disabled-border-color: var(--color-sand);
+}
+
+/* Sections */
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -10754,6 +10870,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   line-height: 135%;
   font-weight: 400;
+  font-family: var(--bs-font-sans-serif);
 }
 
 @media (min-width: 992px) {
