@@ -255,10 +255,11 @@ title: "Bikers au grand cœur"
         <p>Nous exprimons notre profonde gratitude envers les bénévoles de l'association <em>Biker Contre Harcèlement</em>.</p>
         <p>Depuis sa création en mai 2020, elle promeut des valeurs d'entraide et de bienveillance. L'association intervient de manière ciblée auprès des élèves en privilégiant le contact humain. Son objectif est de sensibiliser les enfants aux différentes formes de harcèlement par des mises en situation. Ainsi, ils les aident à prendre conscience des conséquences de leurs actions.</p>
         <ul class="list-unstyled d-flex">
-          <li class="me-3"><a class="link-dark" href="#" target="_blank">Facebook</a></li>
-          <li class="me-3"><a class="link-dark" href="#" target="_blank">Instagram</a></li>
-          <li class="me-3"><a class="link-dark" href="#" target="_blank">Mail</a></li>
-          <li class="me-3"><a class="link-dark" href="#" target="_blank">Site web</a></li>
+          <li class="me-3"><a class="link-dark" href="https://www.facebook.com/p/BCH-Biker-Contre-Harcelement-33-100070471032774/" target="_blank">Facebook</a></li>
+          <li class="me-3"><a class="link-dark" href="https://www.instagram.com/b.c.h.33.france/" target="_blank">Instagram</a></li>
+          <li class="me-3"><a class="link-dark" href="https://www.tiktok.com/@bikercontreharcelement33/" target="_blank">TikTok</a></li>
+          <li class="me-3"><a class="link-dark" href="mailto:bikercontreharcelement33@gmail.com">Mail</a></li>
+          <li class="me-3"><a class="link-dark" href="https://bikercontreharcelement.fr/" target="_blank">Site web</a></li>
         </ul>
       </div>
     </div>
