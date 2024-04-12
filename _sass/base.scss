@@ -8,27 +8,6 @@
   font-style: normal;
 }
 
-// @font-face {
-//   font-family: "Ever Looser";
-//   src:
-//     url('/assets/fonts/ever_looser.woff') format('woff'),
-//     url('/assets/fonts/ever_looser.woff2') format('woff2'),
-//     url('/assets/fonts/ever_looser.ttf') format('truetype');
-//   font-weight: normal;
-//   font-style: normal;
-// }
-
-// @font-face {
-//   font-family: "Ever Looser Untextured";
-//   src:
-//     url('/assets/fonts/ever_looser_untextured.woff') format('woff'),
-//     url('/assets/fonts/ever_looser_untextured.woff2') format('woff2'),
-//     url('/assets/fonts/ever_looser_untextured.ttf') format('truetype');
-//   font-weight: normal;
-//   font-style: normal;
-// }
-
-
 @font-face {
   font-family: "Inter";
   src:
@@ -53,8 +32,6 @@
 /* Variables */
 :root {
   --font-title: "Blank River", serif;
-  // --font-title: "Ever Looser", serif;
-  // --font-title: "Ever Looser Untextured", serif;
   --bs-font-sans-serif: "Inter", sans-serif;
   --color-white: #ffffff;
   --color-white-rgb: 255, 255, 255;
@@ -66,6 +43,7 @@
   --color-aquamarine-rgb: rgb(140, 202, 197);
   --color-sand: #F1AB5F;
   --color-sand-rgb: 243, 188, 128;
+  --color-sand-hover: #DE874B;
 }
 
 body {
@@ -96,6 +74,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 1.5rem;
+  margin-bottom: .5em;
 }
 
 h4, .h4 {
@@ -162,8 +141,8 @@ h6, .h6 {
   --bs-btn-disabled-bg: var(--color-sand);
   --bs-btn-disabled-border-color: var(--color-sand);
   --bs-btn-hover-border-color: var(--color-white);
-  --bs-btn-hover-bg: var(--color-black);
-  --bs-btn-hover-color: var(--color-white);
+  --bs-btn-hover-bg: var(--color-sand-hover);
+  --bs-btn-hover-color: var(--color-dark);
   --bs-btn-font-weight: bold;
   background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='%23333' stroke-width='2' stroke-dasharray='50%2c 20%2c 11%2c 15' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e");
   --bs-btn-border-radius: 20px;
