@@ -2,6 +2,11 @@ url: "https://bikersaugrandcoeur.fr" # the base hostname & protocol for your sit
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Bikers au grand cœur" # the name of your site, e.g. ACME Corp.
 email: bikersaugrandcoeur@gmail.com
+phone_number: "07 81 64 85 09"
+address: "33 avenue de Picot"
+zip_code: "33160"
+city: "Eysines"
+domain: "https://bikersaugrandcoeur.fr/"
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
