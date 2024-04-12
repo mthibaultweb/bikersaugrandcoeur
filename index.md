@@ -38,9 +38,9 @@ title: "Bikers au grand cœur"
           <span data-bg-color="#8cb369" data-color="#000">intimidateurs</span>
         </span>
       </h2>
-      <div class="row align-items-center">
+      <div class="row align-items-center justify-content-center">
         <div class="col-lg-5 mb-4 mb-lg-0">
-          <img class="d-block w-100 p-5 bg-light" src="#" alt="image zone desc"/>
+          <img class="d-none d-lg-block w-100" src="/assets/img/lapine.png" alt=""/>
         </div>
         <div class="col-lg-7">
           <p class="lead">Malgré les apparences, c’est à l’école primaire que le harcèlement est le plus présent.</p>
@@ -69,7 +69,7 @@ title: "Bikers au grand cœur"
           <div class="game-infos">
             <div class="d-flex justify-content-between border-bottom">
               <p><strong>2 - 4</strong> joueurs</p>
-              <p><strong>20'</strong></p>
+              <p><strong>20'</strong> la partie</p>
             </div>
             <div class="d-flex justify-content-between mt-3">
               <p>À partir de <strong>7 ans</strong></p>
@@ -196,7 +196,7 @@ title: "Bikers au grand cœur"
           <p>Écoutez attentivement, laissez votre enfant s'exprimer, écoutez ses questions.</p>
         </div>
         <div class="col-lg">
-          <p>Soyez rassurant.e, instaurez une relation de confiance pour qu’il vienne ensuite plus facilement vous parler.</p>
+          <p>Soyez rassurant·e, instaurez une relation de confiance pour qu’il vienne ensuite plus facilement vous parler.</p>
         </div>
         <div class="col-lg">
           <p>Encouragez l'empathie et aidez l’enfant à comprendre les sentiments de ses camarades.</p>
@@ -231,7 +231,6 @@ title: "Bikers au grand cœur"
           <li>Procureur de la République</li>
           <li>Direction académique des services de l’Education Nationale</li>
           <li><a class="link-dark" href="https://www.cartosantejeunes.org/?CartoSante" target="_blank">Point accueil et écoute jeunes</a></li>
-          <li></li>
         </ul>
       </div>
       <div class="col-lg-8">
