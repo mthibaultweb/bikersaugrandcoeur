@@ -17,9 +17,12 @@ title: "Bikers au grand cœur"
         </h1>
       </div>
         <p class="lead">Amorcer le dialogue parent-enfant<br/> sur le sujet du harcèlement</p>
-        <a class="btn btn-primary" href="#">Découvrez le jeu</a>
+        <a class="btn btn-primary" href="#">
+        Découvrez le jeu
+        </a>
       </div>
     </div>
+
   </div>
 </header>
 <!-- End home header -->
@@ -28,12 +31,18 @@ title: "Bikers au grand cœur"
 <section class="section">
   <div class="section">
     <div class="container">
+      <h2 class="words-wrapper text-center pb-5">A l'école, tous potentiels
+        <span class="words">
+          <span class="current" data-bg-color="#ffc703" data-color="#000">témoins,</span>
+          <span class="next" data-bg-color="#004e98" data-color="#fff">victimes,</span>
+          <span data-bg-color="#8cb369" data-color="#000">intimidateurs</span>
+        </span>
+      </h2>
       <div class="row align-items-center">
         <div class="col-lg-5 mb-4 mb-lg-0">
           <img class="d-block w-100 p-5 bg-light" src="#" alt="image zone desc"/>
         </div>
         <div class="col-lg-7">
-          <h2>A l'école, tous potentiels témoins, victimes, intimidateurs</h2>
           <p class="lead">Malgré les apparences, c’est à l’école primaire que le harcèlement est le plus présent.</p>
           <p>Le harcèlement c’est des <strong>violences répétées</strong> à l’égard d’une personne exercées <strong>par un ou plusieurs individus</strong> (psychologique, physique, verbale ou non verbale)</p>
           <p>{{ site.title }} vous apporte des <strong>ressources & conseils</strong> de spécialistes afin d’<strong>ouvrir la discussion avec vos enfants</strong> sur ce sujet souvent tabou et trop peu pris au sérieux.</p>
@@ -102,9 +111,9 @@ title: "Bikers au grand cœur"
           <!-- <a class="btn btn-secondary" href="#">Télécharger le jeu en noir et blanc (PDF - 35 Mo)</a> -->
         </div>
         <div class="col-lg-6">
-          <img class="d-block w-100 p-5 bg-light" src="#" alt="image jeu 1"/>
+          <!-- <img class="d-block w-100 p-5 bg-light" src="#" alt="image jeu 1"/>
           <img class="d-block w-100 p-5" src="#" alt="image jeu 2"/>
-          <img class="d-block w-100 p-5 bg-light" src="#" alt="image jeu 3"/>
+          <img class="d-block w-100 p-5 bg-light" src="#" alt="image jeu 3"/> -->
         </div>
       </div>
     </div>
@@ -170,7 +179,7 @@ title: "Bikers au grand cœur"
           <p>La situation de harcèlement, plus tôt elle sera traitée, plus vite on pourra l’arrêter et limiter les dégâts.</p>
         </div>
         <div class="col-lg-5">
-          <img class="d-block w-100 p-5 bg-white" src="#" alt="image illustrative"/>
+          <!-- <img class="d-block w-100 p-5 bg-white" src="#" alt="image illustrative"/> -->
         </div>
       </div>
     </div>
@@ -254,6 +263,18 @@ title: "Bikers au grand cœur"
     </div>
     <div class="row">
       <div class="col-lg-8">
+        <div class="row g-0 rounded align-items-center overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col-auto">
+            <img class="" src="/assets/img/bch-logo.jpg" ald="Bikers contre harcèlement" width="150" height="150">
+          </div>
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">World</strong>
+            <h3 class="mb-0">Featured post</h3>
+            <div class="mb-1 text-muted">Nov 12</div>
+            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+        </div>
         <h3>Bikers contre harcèlement</h3>
         <p>Nous exprimons notre profonde gratitude envers les bénévoles de l'association <em>Biker Contre Harcèlement</em>.</p>
         <p>Depuis sa création en mai 2020, elle promeut des valeurs d'entraide et de bienveillance. L'association intervient de manière ciblée auprès des élèves en privilégiant le contact humain. Son objectif est de sensibiliser les enfants aux différentes formes de harcèlement par des mises en situation. Ainsi, ils les aident à prendre conscience des conséquences de leurs actions.</p>
