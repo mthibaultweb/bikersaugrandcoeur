@@ -42,21 +42,25 @@ permalink: /mentions-legales/
     <div class="row justify-content-center">
       <div class="col-lg-8">
         <h2>Informations générales</h2>
-        <h3>Éditeur</h3>
-        <p>
-          <strong>{{ site.title }}</strong><br />
-          {{ site.phone_number }}<br />
-          <a class="link-dark" href="mailto:{{ site.email }}">{{ site.email }}</a><br />
-          {{ site.address }}<br />
-          {{ site.zip_code }} {{ site.city }}
-        <p>
-        <h3>Hébergeur du site</h3>
-        <p>
-          Société Netlify<br />
-          44 Montgomery Street, Suite 300<br />
-          San Francisco, California 94104<br />
-          <a class="link-dark" href="mailto:support@netlify.com">support@netlify.com</a>
-        </p>
+        <div class="section">
+          <h3>Éditeur</h3>
+          <p>
+            <strong>{{ site.title }}</strong><br />
+            {{ site.phone_number }}<br />
+            <a class="link-dark" href="mailto:{{ site.email }}">{{ site.email }}</a><br />
+            {{ site.address }}<br />
+            {{ site.zip_code }} {{ site.city }}
+          <p>
+        </div>
+        <div class="section">
+          <h3>Hébergeur du site</h3>
+          <p>
+            Société Netlify<br />
+            44 Montgomery Street, Suite 300<br />
+            San Francisco, California 94104<br />
+            <a class="link-dark" href="mailto:support@netlify.com">support@netlify.com</a>
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -73,25 +77,32 @@ permalink: /mentions-legales/
           conditions d’accès et d’utilisation des services par « l'Utilisateur ».</p>
         <p>Les présentes CGU sont accessibles sur le site à la rubrique «CGU».</p>
 
-        <h3>Article 1 : Les mentions légales</h3>
-        <p>L'édition du site {{ site.domain }} est assurée par {{ site.title }}, dont le siège est situé
-          au {{ site.address }}, {{ site.zip_code }} {{ site.city }}</p>
-        <p>Numéro de téléphone : {{ site.phone_number }}</p>
-        <p>Adresse e-mail : {{ site.email }}</p>
-        <p>L'hébergeur du site {{ site.domain }} est la société Société Netlify, dont le siège social est
-          situé au 44 Montgomery Street, Suite 300, avec le numéro de téléphone : +1 844-899-7312.</p>
-        <h3>Article 2 : Accès au site</h3>
-        <p>Le site {{ site.domain }} permet à l'Utilisateur un accès gratuit aux services suivants :<br/>
-          jeu de sensibilisation contre le harcèlement
-        </p>
-        <p>Le site est accessible gratuitement en tout lieu à tout Utilisateur ayant un accès à Internet. Tous les frais
-          supportés par l'Utilisateur pour accéder au service (matériel informatique, logiciels, connexion Internet, etc.) sont à sa charge.</p>
-        <h3>Article 3 : Collecte des données</h3>
-        <p>Le site assure à l'Utilisateur une collecte et un traitement d'informations personnelles dans le respect de la
-          vie privée conformément RGPD (Règlement Général sur la Protection des Données) du 25 mai 2018 relative à
-          l'informatique, aux fichiers et aux libertés.</p>
-        <p>En vertu des RGPD, l'Utilisateur dispose d'un droit d'accès, de rectification, de suppression et d'opposition
-          de ses données personnelles. L'Utilisateur exerce ce droit : 33 avenue de Picot Eysines 33320</p>
+        <div class="section">
+          <h3>Article 1 : Les mentions légales</h3>
+          <p>L'édition du site {{ site.domain }} est assurée par {{ site.title }}, dont le siège est situé
+            au {{ site.address }}, {{ site.zip_code }} {{ site.city }}</p>
+          <p>Numéro de téléphone : {{ site.phone_number }}</p>
+          <p>Adresse e-mail : {{ site.email }}</p>
+          <p>L'hébergeur du site {{ site.domain }} est la société Société Netlify, dont le siège social est
+            situé au 44 Montgomery Street, Suite 300, avec le numéro de téléphone : +1 844-899-7312.</p>
+        </div>
+        <div class="section">
+          <h3>Article 2 : Accès au site</h3>
+          <p>Le site {{ site.domain }} permet à l'Utilisateur un accès gratuit aux services suivants :<br/>
+            jeu de sensibilisation contre le harcèlement
+          </p>
+          <p>Le site est accessible gratuitement en tout lieu à tout Utilisateur ayant un accès à Internet. Tous les frais
+            supportés par l'Utilisateur pour accéder au service (matériel informatique, logiciels, connexion Internet, etc.) sont à sa charge.</p>
+        </div>
+        <div class="section">
+          <h3>Article 3 : Collecte des données</h3>
+          <p>Le site assure à l'Utilisateur une collecte et un traitement d'informations personnelles dans le respect de la
+            vie privée conformément RGPD (Règlement Général sur la Protection des Données) du 25 mai 2018 relative à
+            l'informatique, aux fichiers et aux libertés.</p>
+          <p>En vertu des RGPD, l'Utilisateur dispose d'un droit d'accès, de rectification, de suppression et d'opposition
+            de ses données personnelles. L'Utilisateur exerce ce droit : 33 avenue de Picot Eysines 33320</p>
+        </div>
+       <div class="section">
         <h3>Article 4 : Propriété intellectuelle</h3>
         <p>Les marques, logos, signes ainsi que tous les contenus du site (textes, images, son…) font l'objet d'une
           protection par le Code de la propriété intellectuelle et plus particulièrement par le droit d'auteur.</p>
@@ -106,6 +117,8 @@ permalink: /mentions-legales/
           suivants du Code de la propriété intellectuelle.</p>
         <p>Il est rappelé conformément à l’article L122-5 du Code de propriété intellectuelle que l’Utilisateur qui
           reproduit, copie ou publie le contenu protégé doit citer l’auteur et sa source.</p>
+       </div>
+       <div class="section">
         <h3>Article 5 : Responsabilité</h3>
         <p>Les sources des informations diffusées sur le site a {{ site.domain }} sont réputées fiables mais
           le site ne garantit pas qu’il soit exempt de défauts, d’erreurs ou d’omissions.</p>
@@ -116,19 +129,26 @@ permalink: /mentions-legales/
         <p>Le site {{ site.domain }} ne peut être tenu pour responsable d’éventuels virus qui pourraient
           infecter l’ordinateur ou tout matériel informatique de l’Internaute, suite à une utilisation, à l’accès, ou au
           téléchargement provenant de ce site.</p>
+       </div>
+       <div class="section">
         <h3>Article 6 : Liens hypertextes</h3>
         <p>Des liens hypertextes peuvent être présents sur le site. L’Utilisateur est informé qu’en cliquant sur ces
           liens, il sortira du site {{ site.domain }}. Ce dernier n’a pas de contrôle sur les pages web sur
           lesquelles aboutissent ces liens et ne saurait, en aucun cas, être responsable de leur contenu.</p>
+        </div>
+        <div class="section">
         <h3>Article 7 : Cookies</h3>
         <p>Les cookies sont de petits fichiers stockés temporairement sur le disque dur de l’ordinateur de l’Utilisateur
           par votre navigateur. L'utilisateur n'est pas amené à en retrouver sur le site.
           {{ site.domain }}.</p>
-        <h3>Article 8 : Droit applicable et juridiction compétente</h3>
-        <p>La législation française s'applique au présent contrat. En cas d'absence de résolution amiable d'un litige né
-          entre les parties, les tribunaux de Bordeaux seront seuls compétents pour en connaître.</p>
-        <p>Pour toute question relative à l’application des présentes CGU, vous pouvez joindre l’éditeur aux coordonnées
-          inscrites à l’ARTICLE 1.</p>
+       </div>
+        <div class="section">
+          <h3>Article 8 : Droit applicable et juridiction compétente</h3>
+          <p>La législation française s'applique au présent contrat. En cas d'absence de résolution amiable d'un litige né
+            entre les parties, les tribunaux de Bordeaux seront seuls compétents pour en connaître.</p>
+          <p>Pour toute question relative à l’application des présentes CGU, vous pouvez joindre l’éditeur aux coordonnées
+            inscrites à l’ARTICLE 1.</p>
+        </div>
       </div>
     </div>
   </div>
