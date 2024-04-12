@@ -82,7 +82,7 @@ permalink: /mentions-legales/
           <p>L'édition du site {{ site.domain }} est assurée par {{ site.title }}, dont le siège est situé
             au {{ site.address }}, {{ site.zip_code }} {{ site.city }}</p>
           <p>Numéro de téléphone : {{ site.phone_number }}</p>
-          <p>Adresse e-mail : {{ site.email }}</p>
+          <p>Adresse e-mail : <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
           <p>L'hébergeur du site {{ site.domain }} est la société Société Netlify, dont le siège social est
             situé au 44 Montgomery Street, Suite 300, avec le numéro de téléphone : +1 844-899-7312.</p>
         </div>
@@ -106,7 +106,7 @@ permalink: /mentions-legales/
         <h3>Article 4 : Propriété intellectuelle</h3>
         <p>Les marques, logos, signes ainsi que tous les contenus du site (textes, images, son…) font l'objet d'une
           protection par le Code de la propriété intellectuelle et plus particulièrement par le droit d'auteur.</p>
-        <p>Le produit bikers au grand cœur est une marque déposée par bikers au grand cœur, une initiative. Toute
+        <p>Le produit {{ site.title }} est une marque déposée par {{ site.title }}, une initiative. Toute
           représentation et/ou reproduction et/ou exploitation partielle ou totale de cette marque, de quelque nature
           que ce soit, est totalement prohibée.</p>
         <p>L'Utilisateur doit solliciter l'autorisation préalable du site pour toute reproduction, publication, copie des
