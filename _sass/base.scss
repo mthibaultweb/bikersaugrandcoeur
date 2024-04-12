@@ -145,7 +145,27 @@ h6, .h6 {
 
 .bg-aquamarine {
   background-color: var(--color-aquamarine);
-} 
+}
+
+.img-contain {
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.img-bottom {
+  object-position: bottom;
+}
+
+@media (min-width: 992px) {
+  .mt-lg-60 {
+    margin-top: 60px;
+  }
+  .mb-lg-120 {
+    margin-bottom: 120px;
+  }
+}
 
 .btn-primary {
   --bs-btn-color: var(--color-dark);
