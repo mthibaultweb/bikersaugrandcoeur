@@ -8,7 +8,7 @@ title: "Bikers au grand cœur"
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6 mb-4 mb-lg-0 order-lg-2">
-        <img class="w-100" src="/assets/img/bikers_wip.png" alt="image header"/>
+        <img class="w-100" src="/assets/img/bikers_wip.png" alt=""/>
       </div>
       <div class="col-lg-6 order-lg-1">
       <div class="section-title">
@@ -17,7 +17,7 @@ title: "Bikers au grand cœur"
         </h1>
       </div>
         <p class="lead">Amorcer le dialogue parent-enfant<br/> sur le sujet du harcèlement</p>
-        <a class="btn btn-primary" href="#">
+        <a class="btn btn-primary" href="#decouvrir-le-jeu">
         Découvrez le jeu
         </a>
       </div>
