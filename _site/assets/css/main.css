@@ -10818,6 +10818,10 @@ h6, .h6 {
   background-color: var(--color-aquamarine);
 }
 
+.bg-sand {
+  background-color: var(--color-sand);
+}
+
 .img-contain {
   width: 100%;
   height: 100%;
@@ -10861,10 +10865,29 @@ h6, .h6 {
   box-shadow: 0px 0px 4px 0px rgba(var(--color-grey-rgb), 0.25);
 }
 
-.navbar-nav {
-  --bs-navbar-nav-link-padding-x: .75rem;
+@media (min-width: 992px) {
+  .navbar-nav .nav-item {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .navbar-nav .nav-item .nav-link {
+    border-bottom: 2px solid transparent;
+    transition: all 150ms ease-out;
+    padding: 0.125rem 0;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    border-bottom-color: rgba(var(--color-sand-rgb), 0.5);
+  }
+  .navbar-nav .nav-item .nav-link.active {
+    border-bottom-color: rgba(var(--color-sand-rgb), 1);
+  }
 }
-
+@media (min-width: 1200px) {
+  .navbar-nav .nav-item {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
 /* Footer */
 .footer-main {
   padding-top: 45px;
@@ -10912,10 +10935,61 @@ h6, .h6 {
   padding-bottom: 0;
 }
 
+.bloc-galerie {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.header-logo {
+  height: 64px;
+  width: 120px;
+}
+.header-logo .header-logo-img {
+  width: 100%;
+}
+
+.bloc-galerie-video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  color: var(--color-sand);
+}
+
+.temoignage-item .subtitle {
+  opacity: 0.8;
+}
+.temoignage-item .temoignage-content {
+  position: relative;
+}
+.temoignage-item .temoignage-content .temoignage-icon {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.05;
+}
+.temoignage-item .temoignage-content .temoignage-icon.icon-left {
+  left: -40px;
+  top: -20px;
+}
+.temoignage-item .temoignage-content .temoignage-icon.icon-right {
+  right: 0;
+  bottom: -30px;
+}
+
 @media (min-width: 992px) {
+  .header-logo {
+    height: 100px;
+    width: 180px;
+  }
   .contact-list-number {
     column-count: 2;
     -webkit-column-count: 2;
+  }
+  .bloc-galerie {
+    position: sticky;
+    top: 116px;
   }
 }
 
